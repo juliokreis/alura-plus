@@ -28,6 +28,8 @@ body {
     text-align: center;
 }
 
+
+
 .container{
     height: 100vh;
     display: grid;
@@ -152,4 +154,21 @@ body {
 .container__botao:hover{
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
+}
+
+@media (max-width: 1300px) {
+    .principal{  
+        width: 100%;
+        background-image: url("assets/img/Background2.png");
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container__caixa{
+        width: 100%;
+        height: auto;
+        background-image: none;
+        margin: 375px 100px;
+    }
+    
 }
